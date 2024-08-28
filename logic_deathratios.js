@@ -58,7 +58,7 @@ d3.json("us-states-ratio.json").then(function(data) {
                 }
             });
             // Binding a popup to each later
-            layer.bindPopup("<h2>" + feature.properties.name + "</h2> <hr> <h3>" + "COVID-19 Deaths (2020): " + feature.properties.FirstYearDeaths + "</h3> <hr> <h3>" + "Deaths by Population Ratio (2020): " + feature.properties.FirstRatio + "</h3> <hr> <h3>" + "Density: " + feature.properties.density + "</h3>");
+            layer.bindPopup("<h2>" + feature.properties.name + "</h2> <hr> <h3>" + "COVID-19 Deaths (2020): " + feature.properties.FirstYearDeaths + "</h3> <hr> <h3>" + "Deaths by Population Ratio (2020): " + feature.properties.FirstRatio + "</h3> <hr> <h3>" + "Density (Average Population Per Square Mile): " + feature.properties.density + "</h3>");
         },
     }).addTo(myMap);
 
@@ -105,7 +105,7 @@ d3.json("us-states-ratio.json").then(function(data) {
                 }
             });
             // Binding a popup to each later
-            layer.bindPopup("<h2>" + feature.properties.name + "</h2> <hr> <h3>" + "COVID-19 Deaths (2021): " + feature.properties.SecondYearDeaths + "</h3> <hr> <h3>" + "Deaths by Population Ratio (2021): " + feature.properties.SecondRatio + "</h3> <hr> <h3>" + "Density: " + feature.properties.density + "</h3>");
+            layer.bindPopup("<h2>" + feature.properties.name + "</h2> <hr> <h3>" + "COVID-19 Deaths (2021): " + feature.properties.SecondYearDeaths + "</h3> <hr> <h3>" + "Deaths by Population Ratio (2021): " + feature.properties.SecondRatio + "</h3> <hr> <h3>" + "Density (Average Population Per Square Mile): " + feature.properties.density + "</h3>");
         },
     }).addTo(myMap);
 
@@ -151,7 +151,7 @@ d3.json("us-states-ratio.json").then(function(data) {
                 }
             });
             // Binding a popup to each later
-            layer.bindPopup("<h2>" + feature.properties.name + "</h2> <hr> <h3>" + "COVID-19 Deaths (2022): " + feature.properties.ThirdYearDeaths + "</h3> <hr> <h3>" + "Deaths by Population Ratio (2022): " + feature.properties.ThirdRatio + "</h3> <hr> <h3>" + "Density: " + feature.properties.density + "</h3>");
+            layer.bindPopup("<h2>" + feature.properties.name + "</h2> <hr> <h3>" + "COVID-19 Deaths (2022): " + feature.properties.ThirdYearDeaths + "</h3> <hr> <h3>" + "Deaths by Population Ratio (2022): " + feature.properties.ThirdRatio + "</h3> <hr> <h3>" + "Density (Average Population Per Square Mile): " + feature.properties.density + "</h3>");
         },
     }).addTo(myMap);
 
@@ -197,7 +197,7 @@ d3.json("us-states-ratio.json").then(function(data) {
                 }
             });
             // Binding a popup to each later
-            layer.bindPopup("<h2>" + feature.properties.name + "</h2> <hr> <h3>" + "COVID-19 Deaths (2023): " + feature.properties.FourthYearDeaths + "</h3> <hr> <h3>" + "Deaths by Population Ratio (2023): " + feature.properties.FourthRatio + "</h3> <hr> <h3>" + "Density: " + feature.properties.density + "</h3>");
+            layer.bindPopup("<h2>" + feature.properties.name + "</h2> <hr> <h3>" + "COVID-19 Deaths (2023): " + feature.properties.FourthYearDeaths + "</h3> <hr> <h3>" + "Deaths by Population Ratio (2023): " + feature.properties.FourthRatio + "</h3> <hr> <h3>" + "Density (Average Population Per Square Mile): " + feature.properties.density + "</h3>");
         },
     }).addTo(myMap);
 

@@ -11,7 +11,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     }).addTo(myMap);
 
 
-d3.json("Covid_Death_Ratio/us-states-ratio.json").then(function(data) {
+d3.json("us-states-ratio.json").then(function(data) {
 
     console.log(data);
 
